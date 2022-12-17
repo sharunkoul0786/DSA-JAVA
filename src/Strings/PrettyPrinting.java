@@ -5,7 +5,7 @@ public class PrettyPrinting {
         float a = 234.4556f;
 //        System.out.printf("Formated number is %.2f",a);
         System.out.printf("Pie is %.3f",Math.PI);
-        System.out.printf("Suraj is a %s. And is learning %s","Programer","Programming");
+        System.out.printf("sharun is a %s. And is learning %s","Programer","Programming");
 
     }
 }

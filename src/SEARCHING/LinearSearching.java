@@ -5,7 +5,7 @@ public class LinearSearching {
         int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8 };
         int key = 4;
         System.out.println("" + sort(arr, key));
-        System.out.println("" + sortString("Suraj", 'S'));
+        System.out.println("" + sortString("sharun", 'S'));
 
     }
 

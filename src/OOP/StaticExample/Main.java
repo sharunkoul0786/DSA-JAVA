@@ -2,10 +2,10 @@ package OOP.StaticExample;
 
 public class Main {
     public static void main(String[] args) {
-        Human suraj = new Human(21,"Suraj kushwaha",10000,false);
+        Human sharun = new Human(21,"sharun koul",10000,false);
         Human rahul = new Human(34,"rahul agarwal",104000,true);
         Human ankit = new Human(34,"ankit agarwal",104000,true);
-//        System.out.println(suraj.population);
+//        System.out.println(sharun.population);
         System.out.println(Human.population);
 
     }

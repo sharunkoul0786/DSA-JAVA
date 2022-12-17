@@ -7,9 +7,9 @@ public class Main {
         try {
 //            int c =divide(a,b);
 //            throw new Exception("Just for fun");
-            String name = "Suraj";
-            if (name.equals("Suraj")){
-                throw new MyExceptions("Name is Suraj");
+            String name = "sharun";
+            if (name.equals("sharun")){
+                throw new MyExceptions("Name is sharun");
             }
 
         }catch (MyExceptions e){

@@ -14,7 +14,7 @@ public class InnerClass {
     }
 
     public static void main(String[] args) {
-        Test a =  new Test("Suraj");
+        Test a =  new Test("sharun");
         Test b = new Test("Rahul");
         System.out.println(a);
         System.out.println(b.name);

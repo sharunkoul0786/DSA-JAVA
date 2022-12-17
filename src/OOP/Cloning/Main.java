@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args)throws CloneNotSupportedException {
-        Human suraj = new Human(34,"Suraj Kushwaha");
-//        Human twin = new Human(suraj);
+        Human sharun = new Human(34,"sharun koul");
+//        Human twin = new Human(sharun);
 
-        Human twin = (Human)suraj.clone();
+        Human twin = (Human)sharun.clone();
         System.out.println(twin.age);
         System.out.println(Arrays.toString(twin.arr));
         twin.arr[0]=100;
         twin.name="Suman";
-        System.out.println(Arrays.toString(suraj.arr)+"| "+suraj.name);
+        System.out.println(Arrays.toString(sharun.arr)+"| "+sharun.name);
 
     }
 }

@@ -2,9 +2,9 @@ package Strings;
 
 public class temp {
     public static void main(String[] args) {
-        String a = "Suraj";
+        String a = "sharun";
         System.out.println(a);
-        a ="kushwaha";
+        a ="koul";
         System.out.println(a);
         System.out.println(a.charAt(0));
     }
